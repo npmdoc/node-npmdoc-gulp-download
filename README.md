@@ -1,9 +1,14 @@
-# api documentation for  [gulp-download (v0.0.1)](https://github.com/Metrime/gulp-download)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-download.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-download) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-download.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-download)
+# npmdoc-gulp-download
+
+#### api documentation for  [gulp-download (v0.0.1)](https://github.com/Metrime/gulp-download)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-download.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-download) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-download.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-download)
+
 #### Gulp plugin for downloading files via http/https.
 
-[![NPM](https://nodei.co/npm/gulp-download.png?downloads=true)](https://www.npmjs.com/package/gulp-download)
+[![NPM](https://nodei.co/npm/gulp-download.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/gulp-download)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-download/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-gulp-download_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-download/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-gulp-download/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-gulp-download/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-download/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-download/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-gulp-download/build/screenCapture.npmPackageListing.svg)
 
@@ -17,8 +22,7 @@
 
 {
     "author": {
-        "name": "Michael Ostermann",
-        "email": "metrime@icloud.com"
+        "name": "Michael Ostermann"
     },
     "bugs": {
         "url": "https://github.com/Metrime/gulp-download/issues"
@@ -47,13 +51,11 @@
     "main": "index.js",
     "maintainers": [
         {
-            "name": "metrime",
-            "email": "metrime@icloud.com"
+            "name": "metrime"
         }
     ],
     "name": "gulp-download",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/Metrime/gulp-download.git"
@@ -61,16 +63,6 @@
     "version": "0.0.1"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module gulp-download](#apidoc.module.gulp-download)
-
-
-
-# <a name="apidoc.module.gulp-download"></a>[module gulp-download](#apidoc.module.gulp-download)
 
 
 
