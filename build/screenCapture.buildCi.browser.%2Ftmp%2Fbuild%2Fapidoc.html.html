@@ -1,4 +1,4 @@
-<div class="apidocDiv">
+<html><head></head><body><div class="apidocDiv">
 <style>
 /*csslint
 */
@@ -47,17 +47,10 @@
 }
 </style>
 <h1>api documentation for
-    <a
-
-        href="https://github.com/Metrime/gulp-download"
-
-    >gulp-download (v0.0.1)</a>
+    <a href="https://github.com/Metrime/gulp-download">gulp-download (v0.0.1)</a>
 </h1>
 <h4>Gulp plugin for downloading files via http/https.</h4>
-<div class="apidocSectionDiv"><a
-    href="#apidoc.tableOfContents"
-    id="apidoc.tableOfContents"
-><h1>table of contents</h1></a><ol>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
 
     <li class="apidocModuleLi"><a href="#apidoc.module.gulp-download">module gulp-download</a><ol>
 
@@ -92,7 +85,7 @@
 	});
 
 
-	var files = typeof urls === &#x27;string&#x27; ? [urls] : urls;
+	var files = typeof urls === 'string' ? [urls] : urls;
 	var downloadCount = 0;
 
 
@@ -103,27 +96,27 @@
 			request({url:url,encoding:null},downloadHandler),
 			{throttle:1000,delay:1000}
 		)
-		.on(&#x27;progress&#x27;,function(state){
-			process.stdout.write(&#x27; &#x27;+state.percent+&#x27;%&#x27;)
+		.on('progress',function(state){
+			process.stdout.write(' '+state.percent+'%')
 		})
-		.on(&#x27;data&#x27;,function(){
+		.on('data',function(){
 			if(firstLog){
-				process.stdout.write(&#x27;[&#x27;+col.green(&#x27;gulp&#x27;)+&#x27;]&#x27;+&#x27; Downloading &#x27;+col.cyan(url)+&#x27;...&#x27;);
+				process.stdout.write('['+col.green('gulp')+']'+' Downloading '+col.cyan(url)+'...');
 				firstLog = false;
 			}
 		})
 
 		function downloadHandler(err, res, body){
-			var fileName = url.split(&#x27;/&#x27;).pop();
+			var fileName = url.split('/').pop();
 			var file = new gutil.File( {path:fileName, contents: new Buffer(body)} );
 			stream.queue(file);
 
-			process.stdout.write(&#x27; &#x27;+col.green(&#x27;Done\n&#x27;));
+			process.stdout.write(' '+col.green('Done\n'));
 			downloadCount++;
 			if(downloadCount != files.length){
 				download(files[downloadCount])
 			}else{
-				stream.emit(&#x27;end&#x27;)
+				stream.emit('end')
 			}
 		}
 	}
@@ -143,3 +136,4 @@
     ]
 </div>
 </div>
+</body></html>
