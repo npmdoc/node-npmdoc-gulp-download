@@ -1,6 +1,6 @@
 # npmdoc-gulp-download
 
-#### api documentation for  [gulp-download (v0.0.1)](https://github.com/Metrime/gulp-download)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-download.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-download) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-download.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-download)
+#### basic api documentation for  [gulp-download (v0.0.1)](https://github.com/Metrime/gulp-download)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-download.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-download) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-download.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-download)
 
 #### Gulp plugin for downloading files via http/https.
 
@@ -60,7 +60,8 @@
         "type": "git",
         "url": "git+https://github.com/Metrime/gulp-download.git"
     },
-    "version": "0.0.1"
+    "version": "0.0.1",
+    "bin": {}
 }
 ```
 
